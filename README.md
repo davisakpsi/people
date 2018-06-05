@@ -5,3 +5,6 @@
 $ git clone https://github.com/davisakpsi/people.git
 $ cd people && npm install && npm start
 ```
+
+## Author
+[Cyrus Goh](https://github.com/lovincyrus)
