@@ -1,10 +1,14 @@
 [
 	{
-		"name": "FAKE_NAME1",
-		"company": "FAKE_COMPANY1"
+		"name": "Peter",
+		"company": "Apple"
 	},
 	{
-		"name": "FAKE_NAME2",
-		"company": "FAKE_COMPANY2"
+		"name": "Jane",
+		"company": "Google"
+	},
+	{
+		"name": "Ben",
+		"company": "Facebook"
 	}
 ]
