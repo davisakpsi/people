@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Flex, Box } from 'grid-styled';
 import './App.css';
 
 import users from './data.json';
@@ -18,24 +19,30 @@ class App extends Component {
 
   render() {
     const { search } = this.state;
-    const searchUser = users.filter(item =>
+    const searchCompany = users.filter(item =>
       item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1);
     return (
       <div className="App">
+        <h1>AKΨ</h1>
+        <h2>Discover Brothers in the professional world</h2>
         <div className="SearchBar">
           <form>
             <input
-              placeholder="Search"
+              placeholder="Search by company"
               search={search}
               onChange={this.onChange}
             />
           </form>
         </div>
-        <div className="Name">
-          {searchUser.map((e,index) => (
+        <div className="Company">
+          {searchCompany.map((e, index) => (
             <div className="Results" key={index}>
-              <h3>{e.name}</h3>
-              <h3>{e.company}</h3>
+              <Flex alignItems="center" flexWrap="wrap">
+                <Box width={1/3} px={2}>
+                  <h3>{e.name}</h3>
+                  <h3>{e.company}</h3>
+                </Box>
+              </Flex>
             </div>
           ))}
         </div>
