@@ -21,12 +21,12 @@ class App extends Component {
     const searchUser = users.filter(item =>
       item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1);
     return (
-      <div>
+      <div className="App">
         <div className="SearchBar">
           <form>
             <input
               placeholder="Search"
-              search={this.state.search}
+              search={search}
               onChange={this.onChange}
             />
           </form>
