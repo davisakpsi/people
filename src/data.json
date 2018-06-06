@@ -1,18 +1,22 @@
 [
 	{
 		"name": "Peter",
-		"company": "Apple"
+		"company": "Apple",
+		"url": "https://www.linkedin.com/in/cyrusgoh/"
 	},
 	{
 		"name": "Jane",
-		"company": "Google"
+		"company": "Google",
+		"url": "https://www.linkedin.com/in/cyrusgoh/"
 	},
 	{
 		"name": "Ben",
-		"company": "Facebook"
+		"company": "Facebook",
+		"url": "https://www.linkedin.com/in/cyrusgoh/"
 	},
 	{
 		"name": "Naval",
-		"company": "AngelList"
+		"company": "AngelList",
+		"url": "https://www.linkedin.com/in/cyrusgoh/"
 	}
 ]
