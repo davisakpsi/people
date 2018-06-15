@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "grid-styled": "^4.1.0",
+    "bootstrap": "^4.1.1",
+    "pcln-design-system": "^1.0.0-59",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
