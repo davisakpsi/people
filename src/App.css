@@ -6,6 +6,8 @@ html, body {
   padding: 40px 0px;
   text-align: center;
   background-color: #fafafa;
+  background-image: radial-gradient( #dde1e4 1px, transparent 1px );
+  background-size: 16px 16px;
 }
 
 h1 {
@@ -32,18 +34,35 @@ h2 {
   align-items: center;
 }
 
+.Company-Container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 64rem;
+}
+
 .Company {
   margin-top: 4vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .Results {
   background-color: white;
   padding: 20px;
-  margin: 5px;
-  width: 250px;
+  margin: 12px;
+  width: 215px;
   height: 150px;
   position: relative;
   display: flex;
@@ -80,4 +99,13 @@ input {
 input:focus {
   outline: 0;
   background-color: #FFF;
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
 }
