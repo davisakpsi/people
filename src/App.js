@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Flex, Box } from 'grid-styled';
+// import { Container, Row, Col } from 'reactstrap';
+import { Container, Flex } from 'pcln-design-system';
 import './App.css';
 
 import users from './data.json';
@@ -23,7 +24,7 @@ class App extends Component {
       item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1);
     return (
       <div className="App">
-        <h1>AKΨ</h1>
+        <h1>AKΨ Upsilon Psi</h1>
         <h2>Discover Brothers in the professional world</h2>
         <div className="SearchBar">
           <form>
@@ -34,17 +35,18 @@ class App extends Component {
             />
           </form>
         </div>
-        <div className="Company">
-          {searchCompany.map((e, index) => (
-            <div className="Results" key={index}>
-              <Flex alignItems="center" flexWrap="wrap">
-                <Box width={1/3} px={2}>
-                  <h3>{e.name}</h3>
+        <div className="Company-Container">
+          <div className="Company">
+            {searchCompany.map((e, index) => (
+              <div className="Results" key={index}>
+              <Container px={3} pb={4}>
+                <Flex wrap justify="center">
                   <h3>{e.company}</h3>
-                </Box>
-              </Flex>
-            </div>
-          ))}
+                </Flex>
+              </Container>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );
