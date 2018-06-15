@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Container, Row, Col } from 'reactstrap';
 import { Container, Flex } from 'pcln-design-system';
 import './App.css';
 
