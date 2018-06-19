@@ -1,55 +1,49 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import { Container, Flex } from 'pcln-design-system';
-import './App.css';
+import Company from './components/Company.js';
 
-import users from './data.json';
+class ModalSwitch extends React.Component {
+  componentWillUpdate(nextProps) {
+    const { location } = this.props;
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      search: '',
-    };
-    this.onChange = this.onChange.bind(this);
+    if (
+      nextProps.history.action !== 'POP' &&
+      (!location.state || !location.state.modal)
+    ) {
+      this.previousLocation = this.props.location;
+    }
   }
 
-  onChange(event) {
-    this.setState({ search: event.target.value });
-  }
+  previousLocation = this.props.location;
 
   render() {
-    const { search } = this.state;
-    const searchCompany = users.filter(item =>
-      item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1);
+    const { location } = this.props;
+    const isModal = !!(
+      location.state &&
+      location.state.modal &&
+      this.previousLocation !== location
+    );
     return (
-      <div className="App">
-        <h1>AKΨ Upsilon Psi</h1>
-        <h2>Discover Brothers in the professional world</h2>
-        <div className="SearchBar">
-          <form>
-            <input
-              placeholder="Search by company"
-              search={search}
-              onChange={this.onChange}
-            />
-          </form>
-        </div>
-        <div className="Company-Container">
-          <div className="Company">
-            {searchCompany.map((e, index) => (
-              <div className="Results" key={index}>
-              <Container px={3} pb={4}>
-                <Flex wrap justify="center">
-                  <h3>{e.company}</h3>
-                </Flex>
-              </Container>
-              </div>
-            ))}
-          </div>
-        </div>
+      <div>
+        <Container>
+          <Switch location={isModal ? this.previousLocation : location}>
+            <Route exact path="/" component={Company} />
+          </Switch>
+        </Container>
       </div>
     );
   }
 }
+
+const App = () => (
+  <Router>
+    <Route component={ModalSwitch} />
+  </Router>
+);
 
 export default App;
