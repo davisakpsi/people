@@ -7,12 +7,6 @@ import {
 import Company from './components/Company.js';
 import Category from './components/Category.js';
 
-const CategoryComponent = ({ match }) => (
-  <div>
-    <Category id={match.params.id} />
-  </div>
-);
-
 class ModalSwitch extends React.Component {
   componentWillUpdate(nextProps) {
     const { location } = this.props;
@@ -38,7 +32,6 @@ class ModalSwitch extends React.Component {
       <div>
         <Switch location={isModal ? this.previousLocation : location}>
           <Route exact path="/" component={Company} />
-          <Route path="/company/:id" component={CategoryComponent} />
         </Switch>
       </div>
     );
