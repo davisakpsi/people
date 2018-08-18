@@ -4,7 +4,6 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import { Container, Flex } from '@hackclub/design-system';
 import Company from './components/Company.js';
 import Category from './components/Category.js';
 
