@@ -40,7 +40,7 @@ class App extends Component {
               <Link to={`company/${e.company}`}>
                 <div className="Results" key={index}>
                   <Container px={3} pb={4}>
-                    <Flex justify="center">
+                    <Flex mx={[1, 2, -3]} wrap justify="center">
                       <h3>{e.company}</h3>
                     </Flex>
                   </Container>
