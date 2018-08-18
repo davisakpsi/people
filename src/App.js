@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from 'react-router-dom';
-import { Container, Flex } from 'pcln-design-system';
+import { Container, Flex } from '@hackclub/design-system';
 import Company from './components/Company.js';
+import Category from './components/Category.js';
+
+const CategoryComponent = ({ match }) => (
+  <div>
+    <Category id={match.params.id} />
+  </div>
+);
 
 class ModalSwitch extends React.Component {
   componentWillUpdate(nextProps) {
@@ -30,11 +37,10 @@ class ModalSwitch extends React.Component {
     );
     return (
       <div>
-        <Container>
-          <Switch location={isModal ? this.previousLocation : location}>
-            <Route exact path="/" component={Company} />
-          </Switch>
-        </Container>
+        <Switch location={isModal ? this.previousLocation : location}>
+          <Route exact path="/" component={Company} />
+          <Route path="/company/:id" component={CategoryComponent} />
+        </Switch>
       </div>
     );
   }
