@@ -3,7 +3,7 @@ import {
   Container,
   Flex
 } from '@hackclub/design-system';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../App.css';
 
 import users from '../data.json';
@@ -39,15 +39,13 @@ export default class App extends Component {
         </div>
         <div className="Company">
           {searchCompany.map((e, index) => (
-            <Link to={`company/${e.company}`}>
-              <div className="Results" key={index}>
-                <Container px={3} pb={4}>
-                  <Flex mx={[1, 2, -3]} wrap justify="center">
-                    <h3>{e.company}</h3>
-                  </Flex>
-                </Container>
-              </div>
-            </Link>
+            <div className="Results" key={index}>
+              <Container px={3} pb={4}>
+                <Flex mx={[1, 2, -3]} wrap justify="center">
+                  <h3>{e.company}</h3>
+                </Flex>
+              </Container>
+            </div>
           ))}
         </div>
       </div>
