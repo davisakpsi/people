@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@hackclub/design-system": "^0.0.1-10",
+    "@reach/router": "^1.1.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.3.1",
