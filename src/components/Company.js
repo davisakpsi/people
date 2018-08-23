@@ -3,7 +3,10 @@ import {
   Container,
   Flex
 } from '@hackclub/design-system';
-// import { Link } from 'react-router-dom';
+import { Link } from '@reach/router';
+import Tilt from 'react-tilt';
+
+import CompanyCard from './CompanyCard.js';
 import '../App.css';
 
 import users from '../data.json';
@@ -39,13 +42,17 @@ export default class App extends Component {
         </div>
         <div className="Company">
           {searchCompany.map((e, index) => (
-            <div className="Results" key={index}>
-              <Container px={3} pb={4}>
-                <Flex mx={[1, 2, -3]} wrap justify="center">
-                  <h3>{e.company}</h3>
-                </Flex>
-              </Container>
-            </div>
+            <Link to={`/company/${index}`}>
+              <Tilt options={{ max : 25 }}>
+                <div className="Results" key={index}>
+                  <Container px={3} pb={4}>
+                    <Flex mx={[1, 2, -3]} wrap justify="center">
+                      <h3>{e.company}</h3>
+                    </Flex>
+                  </Container>
+                </div>
+              </Tilt>
+            </Link>
           ))}
         </div>
       </div>
