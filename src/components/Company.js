@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import {
-  Container,
-  Flex
-} from '@hackclub/design-system';
+import { Container, Flex } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
 
-import CompanyCard from './CompanyCard.js';
+// import CompanyCard from './CompanyCard.js';
 import '../App.css';
 
 import users from '../data.json';
@@ -24,8 +21,9 @@ export default class App extends Component {
 
   render() {
     const { search } = this.state;
-    const searchCompany = users.filter(item =>
-      item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1);
+    const searchCompany = users.filter(
+      item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
+    );
 
     return (
       <div className="App">
@@ -42,9 +40,9 @@ export default class App extends Component {
         </div>
         <div className="Company">
           {searchCompany.map((e, index) => (
-            <Link to={`/company/${index}`}>
-              <Tilt options={{ max : 25 }}>
-                <div className="Results" key={index}>
+            <Link to={`/company/${index}`} key={index}>
+              <Tilt options={{ max: 25 }}>
+                <div className="Results">
                   <Container px={3} pb={4}>
                     <Flex mx={[1, 2, -3]} wrap justify="center">
                       <h3>{e.company}</h3>
