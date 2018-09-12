@@ -60,7 +60,7 @@ export default class App extends React.Component {
     if (this.state.isLoading) return App.LoadingIndicator;
     return (
       <div className="App">
-        <h1>AKΨ Upsilon Psi</h1>
+        <h1>AKΨ Upsilon Psi (🛠)</h1>
         <h2>Discover Brothers in the professional world</h2>
         <div className="SearchBar">
           <form>
