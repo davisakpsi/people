@@ -1,30 +1,63 @@
-import React, { Component } from 'react';
+import React from 'react';
+import axios from 'axios';
 import { Container, Flex } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
 
-// import CompanyCard from './CompanyCard.js';
 import '../App.css';
 
-import users from '../data.json';
+// import users from '../data.json';
 
-export default class App extends Component {
+const baseURL = 'https://people-backend.herokuapp.com';
+export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { search: '' };
+    this.state = {
+      search: '',
+      data: [],
+      isLoading: true
+    };
     this.onChange = this.onChange.bind(this);
+    this.getCompany = this.getCompany.bind(this);
+  }
+
+  componentDidMount() {
+    this.getCompany();
   }
 
   onChange(event) {
     this.setState({ search: event.target.value });
   }
 
+  getCompany() {
+    let url = `${baseURL}/people`;
+    axios
+      .get(url)
+      .then(res => {
+        this.setState({
+          data: res.data,
+          isLoading: false
+        });
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  }
+
+  static LoadingIndicator = (
+    <React.Fragment>
+      <p>Loading...</p>
+    </React.Fragment>
+  );
+
   render() {
-    const { search } = this.state;
-    const searchCompany = users.filter(
+    const { search, data } = this.state;
+
+    const searchCompany = data.filter(
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
 
+    if (this.state.isLoading) return App.LoadingIndicator;
     return (
       <div className="App">
         <h1>AKΨ Upsilon Psi</h1>
