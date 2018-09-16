@@ -9,7 +9,7 @@ import '../App.css';
 // import users from '../data.json';
 
 const baseURL = 'https://people-backend.herokuapp.com';
-export default class App extends React.Component {
+export default class Company extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,13 +51,13 @@ export default class App extends React.Component {
   );
 
   render() {
-    const { search, data } = this.state;
+    const { search, data, isLoading } = this.state;
 
     const searchCompany = data.filter(
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
 
-    if (this.state.isLoading) return App.LoadingIndicator;
+    if (isLoading) return Company.LoadingIndicator;
     return (
       <div className="App">
         <h1>AKΨ Upsilon Psi (🛠)</h1>
@@ -73,7 +73,7 @@ export default class App extends React.Component {
         </div>
         <div className="Company">
           {searchCompany.map((e, index) => (
-            <Link to={`/company/${index}`} key={index}>
+            <Link to={`/people/${e.company}`} key={index}>
               <Tilt options={{ max: 25 }}>
                 <div className="Results">
                   <Container px={3} pb={4}>
