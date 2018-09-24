@@ -6,9 +6,8 @@ import Tilt from 'react-tilt';
 
 import '../App.css';
 
-// import users from '../data.json';
-
 const baseURL = 'https://people-backend.herokuapp.com';
+
 export default class Company extends React.Component {
   constructor(props) {
     super(props);
@@ -53,15 +52,31 @@ export default class Company extends React.Component {
   render() {
     const { search, data, isLoading } = this.state;
 
+    console.log(data);
+
+    // Push companies to a new []
+    // const companyListData = companyData.push(data => data.company)
+    // console.log(companyListData)
+
+    // filter + indexof
+    // https://gist.github.com/telekosmos/3b62a31a5c43f40849bb
+    const cleanData = data.filter((v, i) => data.indexOf(v) === i);
+    // const cleanData = data.filter((el, index, a) => index === a.indexOf(el.company))
+    // const cleanData = data.map(foo => [...new Set(data.company)])
+    // const cleanData = data.reduce((x, y) => x.includes(y) ? x : [...x, y], [])
+    console.log(cleanData);
+
+    // Filter and search company
     const searchCompany = data.filter(
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
+    console.log(searchCompany);
 
     if (isLoading) return Company.LoadingIndicator;
     return (
       <div className="App">
         <h1>AKΨ Upsilon Psi (🛠)</h1>
-        <h2>Discover Brothers in the professional world</h2>
+        <h2>Discover brothers in the professional world</h2>
         <div className="SearchBar">
           <form>
             <input
