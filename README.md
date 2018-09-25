@@ -15,5 +15,11 @@ $ yarn install; yarn start
 $ yarn build; netlify deploy
 ```
 
+## Avataaars API
+An API for Avataaars 👨‍👩‍👧‍👦 https://avataaars-api.now.sh
+
+Repo: https://github.com/bntzio/avataaars-api
+Generator: https://getavataaars.com/
+
 ## Author
 [Cyrus Goh](https://github.com/lovincyrus)
