@@ -1,7 +1,6 @@
 [
   {
     "company": "Apple",
-    "url": "https://www.apple.com",
     "user": [
       {
         "name": "Peter",
@@ -14,7 +13,6 @@
   },
   {
     "company": "Facebook",
-    "url": "https://www.facebook.com",
     "user": [
       {
         "name": "Ben",
@@ -27,7 +25,6 @@
   },
   {
     "company": "Google",
-    "url": "https://www.google.com",
     "user": [
       {
         "name": "Jane",
@@ -89,7 +86,6 @@
   },
   {
     "company": "Tesla",
-    "url": "https://www.tesla.com",
     "user": [
       {
         "name": "Peter",
@@ -102,7 +98,6 @@
   },
   {
     "company": "Postmates",
-    "url": "https://www.postmates.com",
     "user": [
       {
         "name": "Peter",
@@ -115,7 +110,6 @@
   },
   {
     "company": "LinkedIn",
-    "url": "https://www.linkedin.com",
     "user": [
       {
         "name": "Peter",
@@ -128,7 +122,6 @@
   },
   {
     "company": "Coinbase",
-    "url": "https://www.coinbase.com",
     "user": [
       {
         "name": "Peter",
@@ -141,7 +134,6 @@
   },
   {
     "company": "Robinhood",
-    "url": "https://www.robinhood.com",
     "user": [
       {
         "name": "Peter",
@@ -154,7 +146,6 @@
   },
   {
     "company": "Tinder",
-    "url": "https://www.tinder.com",
     "user": [
       {
         "name": "Peter",
