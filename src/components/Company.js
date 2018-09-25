@@ -1,34 +1,60 @@
 import React from 'react';
-import { Container, Flex } from '@hackclub/design-system';
+import Helmet from 'react-helmet';
+import { Container, Flex, Button, Text } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
 
 import users from '../data.json';
+import meta from '../meta.json';
 
 import '../App.css';
+
+const { description, url, title, name, favicon } = meta;
 
 export default class Company extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      search: ''
+      search: '',
+      data: []
+      // hasMore: true
     };
     this.onChange = this.onChange.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState({ data: users });
   }
 
   onChange(event) {
     this.setState({ search: event.target.value });
   }
 
-  render() {
-    const { search } = this.state;
+  // handleClick = () => {
+  //   this.setState({
+  //     hasMore: this.state.data.length < 100
+  //   });
+  //   console.log(this.state.hasMore);
+  //   console.log(this.state.data);
+  // };
 
-    const searchCompany = users.filter(
+  render() {
+    const { search, data } = this.state;
+
+    const searchCompany = data.filter(
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
 
+    // if (data.length > 6)
     return (
-      <div className="App">
+      <React.Fragment>
+        <Helmet>
+          <title>{name}</title>
+          <meta name="description" content={description} />
+          <meta property="og:description" content={description} />
+          <link rel="canonical" href={url} />
+          <link rel="shortcut icon" href={favicon} />
+        </Helmet>
         <h1>AKΨ Upsilon Psi (🛠)</h1>
         <h2>Discover brothers in the professional world</h2>
         <div className="SearchBar">
@@ -55,7 +81,22 @@ export default class Company extends React.Component {
             </Link>
           ))}
         </div>
-      </div>
+        <Container
+          maxWidth="100%"
+          align="center"
+          style={{ height: '20vh', marginTop: '20vh' }}
+        >
+          <Text f={1} my={4} color="black">
+            Designed and developed in Davis, California <br />& Kuala Lumpur,
+            Malaysia
+          </Text>
+          <ul className="link">
+            <li>
+              <a href="cyrusgoh.com">Feedback</a>
+            </li>
+          </ul>
+        </Container>
+      </React.Fragment>
     );
   }
 }

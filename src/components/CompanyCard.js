@@ -1,10 +1,13 @@
 import React from 'react';
-import { Container, Flex } from '@hackclub/design-system';
+import Helmet from 'react-helmet';
+import { Container, Flex, Image, Link } from '@hackclub/design-system';
 
 import users from '../data.json';
+import meta from '../meta.json';
 
 import '../App.css';
 
+const { description, url, title, name, favicon } = meta;
 class CompanyCard extends React.Component {
   render() {
     const { company } = this.props;
@@ -30,6 +33,15 @@ class CompanyCard extends React.Component {
 
     return (
       <React.Fragment>
+        <Helmet>
+          <title>
+            {company} > {name}
+          </title>
+          <meta name="description" content={description} />
+          <meta property="og:description" content={description} />
+          <link rel="canonical" href={url} />
+          <link rel="shortcut icon" href={favicon} />
+        </Helmet>
         <div className="Brothers">
           <Flex mx={[1, 2, -3]} wrap justify="center">
             <h1 style={{ fontSize: '2.5em' }}>{company}</h1>
@@ -40,19 +52,19 @@ class CompanyCard extends React.Component {
                 <div className="CompanyUsers">
                   <Container px={3} pb={20}>
                     <Flex mx={[1, 2]} wrap justify="center">
-                      <img
+                      <Image
                         src={foo.avatar}
                         alt="avatar"
                         style={{ width: '120px', height: '120px' }}
                       />
                       <p style={pStyle}>{foo.name}</p>
-                      <a
+                      <Link
                         href={foo.website}
                         target="_blank"
                         style={aWebsiteStyle}
                       >
                         website
-                      </a>
+                      </Link>
                     </Flex>
                   </Container>
                 </div>
