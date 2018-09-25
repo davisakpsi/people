@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Container, Flex, Button, Text } from '@hackclub/design-system';
+import { Container, Flex, Text, Link as URL } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
 
@@ -37,6 +37,15 @@ export default class Company extends React.Component {
   //   console.log(this.state.hasMore);
   //   console.log(this.state.data);
   // };
+  // <Button fontSize={1} chevronRight onClick={this.handleClick}>
+  //   See more
+  // </Button>
+
+  static NotMatched = (
+    <React.Fragment>
+      <p>Company Not Found</p>
+    </React.Fragment>
+  );
 
   render() {
     const { search, data } = this.state;
@@ -45,7 +54,6 @@ export default class Company extends React.Component {
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
 
-    // if (data.length > 6)
     return (
       <React.Fragment>
         <Helmet>
@@ -81,20 +89,21 @@ export default class Company extends React.Component {
             </Link>
           ))}
         </div>
-        <Container
-          maxWidth="100%"
-          align="center"
-          style={{ height: '20vh', marginTop: '20vh' }}
-        >
-          <Text f={1} my={4} color="black">
+        <Container maxWidth={100} align="center" style={{ marginBottom: '0' }}>
+          <Text f={1} my={5} color="slate" align="center">
             Designed and developed in Davis, California <br />& Kuala Lumpur,
             Malaysia
           </Text>
-          <ul className="link">
-            <li>
-              <a href="cyrusgoh.com">Feedback</a>
-            </li>
-          </ul>
+          <Text f={2} my={-3} align="center">
+            <URL
+              href="https://airtable.com/shrOjbaauwJU0t4QU"
+              target="_blank"
+              color="black"
+              bold
+            >
+              Feedback
+            </URL>
+          </Text>
         </Container>
       </React.Fragment>
     );

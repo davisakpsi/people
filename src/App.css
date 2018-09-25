@@ -25,7 +25,7 @@ h2 {
   margin-bottom: 10px;
   font-weight: 400;
   color: #666666;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: -20px 20px 30px 20px;
 }
 
@@ -102,6 +102,7 @@ input {
   padding: 0 16px;
   background-color: rgba(255, 255, 255, 0.8);
   color: #212121;
+  font-size: 13px;
   border: 0;
   text-align: -webkit-center;
   -webkit-border-radius: 4px;
@@ -113,21 +114,11 @@ input:focus {
   background-color: #fff;
 }
 
-@media screen and (min-width: 375px) {
-  h1 {
-    font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-}
-
 .CompanyCard {
   margin-top: 4vh;
   display: -webkit-box;
   display: -webkit-inline-box;
   display: -ms-flexbox;
-  /* display: flex; */
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -159,4 +150,13 @@ input:focus {
   -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.3em;
+  }
 }
