@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <Router>
         <Company path="/" />
-        <CompanyCard path="/people/:company" />
+        <CompanyCard path="/:company" />
       </Router>
     );
   }

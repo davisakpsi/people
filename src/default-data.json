@@ -1,0 +1,13 @@
+{
+  "company": "COMPANY_NAME",
+  "url": "COMPANY_URL",
+  "user": [
+    {
+      "name": "USER_NAME",
+      "email": "USER_EMAIL",
+      "title": "USER_TITLE",
+      "website": "USER_WEBSITE",
+      "avatar": "AVATAR_LINK"
+    }
+  ]
+}
