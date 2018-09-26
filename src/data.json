@@ -1,13 +1,13 @@
 [
   {
-    "company": "Apple",
+    "company": "Team SoloMid",
     "user": [
       {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
+        "name": "Brandon Yung",
+        "email": "brandon@solomid.net",
+        "title": "Product Designer",
+        "website": "https://www.linkedin.com/in/bcyung/",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Blue03&clotheType=BlazerShirt&eyeType=Squint&eyebrowType=DefaultNatural&facialHairType=Blank&hairColor=Black&mouthType=Vomit&skinColor=Light&topType=ShortHairShortFlat"
       }
     ]
   },
