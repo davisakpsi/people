@@ -24,19 +24,7 @@
     ]
   },
   {
-    "company": "Facebook",
-    "user": [
-      {
-        "name": "Ben",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?https://avataaars.io/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=PastelBlue&clotheType=BlazerSweater&eyeType=Dizzy&eyebrowType=UpDown&facialHairColor=Black&facialHairType=BeardMagestic&graphicType=Skull&hairColor=Red&hatColor=Pink&mouthType=Default&skinColor=Light&topType=LongHairFrida"
-      }
-    ]
-  },
-  {
-    "company": "Google",
+    "company": "Demo",
     "user": [
       {
         "name": "Jane",
@@ -93,78 +81,6 @@
         "title": "SWE",
         "website": "https://www.linkedin.com/in/cyrusgoh/",
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairDreads&accessoriesType=Wayfarers&hairColor=Platinum&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=BlazerShirt&clotheColor=Blue01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=ScreamOpen&skinColor=Tanned"
-      }
-    ]
-  },
-  {
-    "company": "Tesla",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
-      }
-    ]
-  },
-  {
-    "company": "Postmates",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
-      }
-    ]
-  },
-  {
-    "company": "LinkedIn",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
-      }
-    ]
-  },
-  {
-    "company": "Coinbase",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
-      }
-    ]
-  },
-  {
-    "company": "Robinhood",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
-      }
-    ]
-  },
-  {
-    "company": "Tinder",
-    "user": [
-      {
-        "name": "Peter",
-        "email": "hello@lovincyrus.com",
-        "title": "SWE",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Red&hatColor=Black&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=CollarSweater&clotheColor=PastelOrange&graphicType=Hola&eyeType=Happy&eyebrowType=Angry&mouthType=Vomit&skinColor=Yellow"
       }
     ]
   }
