@@ -37,5 +37,5 @@ Form: https://airtable.com/shrrnE5M57XIOwOtu
 ```
 
 ## 📢 + 💬
-If you have any problem, please reach out: https://airtable.com/shrOjbaauwJU0t4QU (Will get back to you ASAP). I'm always open for ideas 🙌 <br/>
+If you have any problem, please reach out: https://airtable.com/shrOjbaauwJU0t4QU (Will get back to you ASAP). I'm always open to ideas 🙌 <br/>
 If you discover any issues or bug, open an issue or submit a PR 😌

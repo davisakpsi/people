@@ -43,12 +43,8 @@ class CompanyCard extends React.Component {
 
     const faIconStyle = {
       display: 'block',
-      marginBlockStart: '1em',
-      marginBlockEnd: '1em',
-      marginInlineStart: '0px',
-      marginInlineEnd: '0px',
       right: '11px',
-      top: '-6px',
+      top: '8px',
       position: 'absolute'
     };
 
