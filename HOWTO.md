@@ -1,9 +1,9 @@
 👋 Hey there!
 
 People | AKΨ Upsilon Psi
-- Discover brothers in the professional world.
+> Discover brothers in the professional world.
 
-Website: https://people.netlify.com
+Website: https://people.netlify.com<br/>
 Form: https://airtable.com/shrrnE5M57XIOwOtu
 
 ## Get started 🛠
@@ -37,5 +37,5 @@ Form: https://airtable.com/shrrnE5M57XIOwOtu
 ```
 
 ## 📢 + 💬
-If you have any problem, please reach out: https://airtable.com/shrOjbaauwJU0t4QU (Will get back to you ASAP). I'm always open for ideas 🙌 
+If you have any problem, please reach out: https://airtable.com/shrOjbaauwJU0t4QU (Will get back to you ASAP). I'm always open for ideas 🙌 <br/>
 If you discover any issues or bug, open an issue or submit a PR 😌
