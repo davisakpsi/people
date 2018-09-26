@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import _ from 'lodash';
 import { Container, Flex, Text, Link as URL } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
@@ -38,7 +39,7 @@ export default class Company extends React.Component {
   render() {
     const { search, data } = this.state;
 
-    const searchCompany = data.filter(
+    const searchCompany = _.shuffle(data).filter(
       item => item.company.toLowerCase().indexOf(search.toLowerCase()) !== -1
     );
 
