@@ -12,6 +12,18 @@
     ]
   },
   {
+    "company": "Workday",
+    "user": [
+      {
+        "name": "Amanda Hong",
+        "email": "amandahong@gmail.com",
+        "title": "Associate Graphic Designer",
+        "website": "https://amandahong.com/",
+        "avatar": "https://avataaars.io/?accessoriesType=Prescription02&avatarStyle=Circle&clotheColor=Gray01&clotheType=ShirtCrewNeck&eyeType=Happy&eyebrowType=RaisedExcitedNatural&facialHairColor=Blonde&facialHairType=Blank&hairColor=Black&hatColor=Black&mouthType=Smile&skinColor=Light&topType=LongHairBigHair"
+      }
+    ]
+  },
+  {
     "company": "Facebook",
     "user": [
       {
