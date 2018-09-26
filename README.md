@@ -7,7 +7,7 @@
 ```
 $ git clone https://github.com/davisakpsi/people.git
 $ cd people
-$ yarn install; yarn start
+$ yarn; yarn start
 ```
 
 ## Deployment
@@ -18,7 +18,7 @@ $ yarn build; netlify deploy
 ## Avataaars API
 An API for Avataaars 👨‍👩‍👧‍👦 https://avataaars-api.now.sh
 
-Repo: https://github.com/bntzio/avataaars-api
+Repo: https://github.com/bntzio/avataaars-api <br/>
 Generator: https://getavataaars.com/
 
 ## Author
