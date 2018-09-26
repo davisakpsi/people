@@ -63,7 +63,7 @@ export default class Company extends React.Component {
           <link rel="canonical" href={url} />
           <link rel="shortcut icon" href={favicon} />
         </Helmet>
-        <h1>AKΨ Upsilon Psi (🛠)</h1>
+        <h1>AKΨ Upsilon Psi</h1>
         <h2>Discover brothers in the professional world</h2>
         <div className="SearchBar">
           <form>
