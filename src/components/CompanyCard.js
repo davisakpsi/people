@@ -15,10 +15,20 @@ library.add(faLink);
 
 const { description, url, title, name, favicon } = meta;
 class CompanyCard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { data: [] };
+  }
+
+  componentDidMount() {
+    this.setState({ data: users });
+  }
+
   render() {
     const { company } = this.props;
+    const { data } = this.state;
 
-    const filterCompanyName = users.filter(item => item.company === company);
+    const filterCompanyName = data.filter(item => item.company === company);
 
     const pStyle = {
       marginTop: '10px',

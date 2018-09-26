@@ -17,7 +17,6 @@ export default class Company extends React.Component {
     this.state = {
       search: '',
       data: []
-      // hasMore: true
     };
     this.onChange = this.onChange.bind(this);
   }
@@ -29,17 +28,6 @@ export default class Company extends React.Component {
   onChange(event) {
     this.setState({ search: event.target.value });
   }
-
-  // handleClick = () => {
-  //   this.setState({
-  //     hasMore: this.state.data.length < 100
-  //   });
-  //   console.log(this.state.hasMore);
-  //   console.log(this.state.data);
-  // };
-  // <Button fontSize={1} chevronRight onClick={this.handleClick}>
-  //   See more
-  // </Button>
 
   static NotMatched = (
     <React.Fragment>
