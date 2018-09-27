@@ -83,5 +83,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairDreads&accessoriesType=Wayfarers&hairColor=Platinum&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=BlazerShirt&clotheColor=Blue01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=ScreamOpen&skinColor=Tanned"
       }
     ]
+  },
+  {
+    "company": "Google",
+    "user": [
+      {
+        "name": "Juhie Rathor",
+        "email": "juhierathor@gmail.com",
+        "title": "Marketing Coordinator",
+        "website": "https://www.juhierathor.com/",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Red&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
+      }
+    ]
   }
 ]
