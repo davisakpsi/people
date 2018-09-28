@@ -48,7 +48,14 @@ export default class Company extends React.Component {
         <Helmet>
           <title>{name}</title>
           <meta name="description" content={description} />
+          <meta property="og:title" content={name} />
           <meta property="og:description" content={description} />
+          <meta property="og:image" content={img} />
+          <meta property="og:image:alt" content={description} />
+          <meta property="og:url" content={url} />
+          <meta name="twitter:title" content={name} />
+          <meta name="twitter:description" content={description} />
+          <meta name="twitter:image" content={img} />
           <link rel="canonical" href={url} />
           <link rel="shortcut icon" href={favicon} />
         </Helmet>
