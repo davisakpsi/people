@@ -10,7 +10,7 @@ import meta from '../meta.json';
 
 import '../App.css';
 
-const { description, url, title, name, favicon } = meta;
+const { description, url, title, name, img, favicon } = meta;
 
 export default class Company extends React.Component {
   constructor(props) {

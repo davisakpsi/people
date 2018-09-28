@@ -13,7 +13,7 @@ import '../App.css';
 library.add(faEnvelope);
 library.add(faLink);
 
-const { description, url, title, name, favicon } = meta;
+const { description, url, title, name, img, favicon } = meta;
 class CompanyCard extends React.Component {
   constructor(props) {
     super(props);
