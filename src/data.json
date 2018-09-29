@@ -95,5 +95,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Red&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Brown"
       }
     ]
+  },
+  {
+    "company": "Elastic",
+    "user": [
+      {
+        "name": "Jose Martinez",
+        "email": "jsmrtnz919@gmail.com",
+        "title": "User Success Manager",
+        "website": "https://www.linkedin.com/in/jjmmartinez",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtVNeck&eyeType=Default&eyebrowType=UpDownNatural&facialHairType=Blank&graphicType=Pizza&hairColor=Black&mouthType=Default&skinColor=Brown&topType=ShortHairShortWaved"
+      }
+    ]
   }
 ]
