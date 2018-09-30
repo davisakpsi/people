@@ -131,5 +131,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=Gray02&clotheType=BlazerSweater&eyeType=Surprised&eyebrowType=RaisedExcitedNatural&facialHairColor=BrownDark&facialHairType=BeardMagestic&hairColor=Auburn&hatColor=Blue01&mouthType=Smile&skinColor=Tanned&topType=ShortHairFrizzle"
       }
     ]
+  },
+  {
+    "company": "AppDynamics",
+    "user": [
+      {
+        "name": "Lauren Chu",
+        "email": "laurenchu1024@gmail.com",
+        "title": "Talent Program Specialist",
+        "website": "https://www.linkedin.com/in/laurensschu/",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+      }
+    ]
   }
 ]
