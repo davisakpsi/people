@@ -41,11 +41,11 @@ class CompanyCard extends React.Component {
 
     const pTitleStyle = {
       marginBottom: '6px',
-      fontSize: '10px',
+      fontSize: '11px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      width: '160px'
+      width: '190px'
     };
 
     const aWebsiteStyle = {

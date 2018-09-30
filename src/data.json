@@ -119,5 +119,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Serious&skinColor=Light&topType=ShortHairShortFlat"
       }
     ]
+  },
+  {
+    "company": "AWS",
+    "user": [
+      {
+        "name": "Wilson To",
+        "email": "wilson.james.to@gmail.com",
+        "title": "Head of Worldwide BD - Healthcare",
+        "website": "https://www.linkedin.com/in/wilsonjamesto",
+        "avatar": "https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=Gray02&clotheType=BlazerSweater&eyeType=Surprised&eyebrowType=RaisedExcitedNatural&facialHairColor=BrownDark&facialHairType=BeardMagestic&hairColor=Auburn&hatColor=Blue01&mouthType=Smile&skinColor=Tanned&topType=ShortHairFrizzle"
+      }
+    ]
   }
 ]
