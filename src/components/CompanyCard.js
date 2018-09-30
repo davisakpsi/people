@@ -44,7 +44,8 @@ class CompanyCard extends React.Component {
       fontSize: '10px',
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      width: '160px'
     };
 
     const aWebsiteStyle = {

@@ -107,5 +107,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtVNeck&eyeType=Default&eyebrowType=UpDownNatural&facialHairType=Blank&graphicType=Pizza&hairColor=Black&mouthType=Default&skinColor=Brown&topType=ShortHairShortWaved"
       }
     ]
+  },
+  {
+    "company": "Uber",
+    "user": [
+      {
+        "name": "Ricky Tran",
+        "email": "ritran@ucdavis.edu",
+        "title": "Analytics & Insights Data Analyst",
+        "website": "https://www.linkedin.com/in/ritran",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Serious&skinColor=Light&topType=ShortHairShortFlat"
+      }
+    ]
   }
 ]
