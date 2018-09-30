@@ -32,15 +32,23 @@ class CompanyCard extends React.Component {
 
     const filterCompanyName = data.filter(item => item.company === company);
 
-    const pStyle = {
+    const pNameStyle = {
       marginTop: '10px',
-      marginBottom: '8px',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    };
+
+    const pTitleStyle = {
+      marginBottom: '6px',
+      fontSize: '10px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center'
     };
 
     const aWebsiteStyle = {
+      marginTop: '6px',
       fontWeight: '500',
       fontSize: '15px',
       textAlign: 'center',
@@ -94,7 +102,8 @@ class CompanyCard extends React.Component {
                         alt="avatar"
                         style={{ width: '120px', height: '120px' }}
                       />
-                      <Text style={pStyle}>{foo.name}</Text>
+                      <Text style={pNameStyle}>{foo.name}</Text>
+                      <Text style={pTitleStyle}>{foo.title}</Text>
                       <Link href={`mailto:${foo.email}`} color="slate">
                         <FontAwesomeIcon icon="envelope" style={faIconStyle} />
                       </Link>
