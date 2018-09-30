@@ -5,6 +5,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLink } from '@fortawesome/free-solid-svg-icons';
 
+import BackButton from './BackButton';
+
 import users from '../data.json';
 import meta from '../meta.json';
 
@@ -76,6 +78,7 @@ class CompanyCard extends React.Component {
           <link rel="canonical" href={url} />
           <link rel="shortcut icon" href={favicon} />
         </Helmet>
+        <BackButton />
         <React.Fragment>
           <Flex mx={[1, 2, -3]} wrap justify="center">
             <h1 style={{ fontSize: '2.5em' }}>{company}</h1>
