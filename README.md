@@ -1,11 +1,8 @@
 # people
 
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lovincyrus/people)
-
 ## Get Started
 ```
-$ git clone https://github.com/davisakpsi/people.git
+$ git clone https://github.com/lovincyrus/people.git
 $ cd people
 $ yarn; yarn start
 ```
