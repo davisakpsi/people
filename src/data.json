@@ -136,5 +136,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
       }
     ]
+  },
+  {
+    "company": "Aerotek",
+    "user": [
+      {
+        "name": "Alvin Phan",
+        "email": "phanalvin@gmail.com",
+        "title": "Architecture & Engineering Recruiter",
+        "website": "https://www.linkedin.com/in/phanalvin/",
+        "avatar": "https://avataaars.io/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=Blue03&clotheType=Hoodie&eyeType=Squint&eyebrowType=Angry&facialHairColor=BrownDark&facialHairType=Blank&graphicType=Selena&hairColor=BrownDark&mouthType=ScreamOpen&skinColor=Brown&topType=LongHairFrida"
+      }
+    ]
   }
 ]

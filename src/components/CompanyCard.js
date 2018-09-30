@@ -41,7 +41,7 @@ class CompanyCard extends React.Component {
 
     const pTitleStyle = {
       marginBottom: '6px',
-      fontSize: '11px',
+      fontSize: '10.8px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
