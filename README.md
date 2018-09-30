@@ -11,9 +11,7 @@ $ yarn; yarn start
 ```
 
 ## Deployment
-```
-$ yarn build; netlify deploy
-```
+Continuous deployment with Netlify on `master` branch
 
 ## Avataaars API
 An API for Avataaars 👨‍👩‍👧‍👦 https://avataaars-api.now.sh
