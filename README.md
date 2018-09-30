@@ -16,5 +16,8 @@ An API for Avataaars 👨‍👩‍👧‍👦 https://avataaars-api.now.sh
 Repo: https://github.com/bntzio/avataaars-api <br/>
 Generator: https://getavataaars.com/
 
+## WIP
+`GET` data from [people-backend](https://github.com/lovincyrus/people-backend) in the future
+
 ## Author
 [Cyrus Goh](https://github.com/lovincyrus)
