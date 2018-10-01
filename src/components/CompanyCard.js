@@ -33,7 +33,7 @@ class CompanyCard extends React.Component {
     const filterCompanyName = data.filter(item => item.company === company);
 
     const pNameStyle = {
-      marginTop: '10px',
+      marginTop: '90px',
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center'
@@ -45,7 +45,7 @@ class CompanyCard extends React.Component {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      width: '190px'
+      width: '210px'
     };
 
     const aWebsiteStyle = {
@@ -59,7 +59,9 @@ class CompanyCard extends React.Component {
       backgroundColor: '#5F84FF',
       color: 'white',
       width: '117px',
-      transition: 'all 0.3s ease 0s'
+      transition: 'all 0.3s ease 0s',
+      position: 'absolute',
+      bottom: '13px'
     };
 
     const faIconStyle = {
@@ -101,7 +103,12 @@ class CompanyCard extends React.Component {
                       <Image
                         src={foo.avatar}
                         alt="avatar"
-                        style={{ width: '120px', height: '120px' }}
+                        style={{
+                          position: 'absolute',
+                          top: '0',
+                          width: '120px',
+                          height: '120px'
+                        }}
                       />
                       <Text style={pNameStyle}>{foo.name}</Text>
                       <Text style={pTitleStyle}>{foo.title}</Text>

@@ -24,60 +24,6 @@
     ]
   },
   {
-    "company": "Demo",
-    "user": [
-      {
-        "name": "Cyrus Goh",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "http://cyrusgoh.com",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairFroBand&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=BeardMagestic&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Skull&eyeType=EyeRoll&eyebrowType=RaisedExcitedNatural&mouthType=Eating&skinColor=DarkBrown"
-      },
-      {
-        "name": "Lilo Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Prescription02&hatColor=Gray02&facialHairType=MoustacheMagnum&facialHairColor=Brown&clotheType=Overall&clotheColor=Black&eyeType=Happy&eyebrowType=UpDown&mouthType=Sad&skinColor=Yellow"
-      },
-      {
-        "name": "Stitch Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairFrida&accessoriesType=Sunglasses&hairColor=Black&facialHairType=BeardMedium&facialHairColor=Blonde&clotheType=BlazerShirt&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Grimace&skinColor=Black"
-      },
-      {
-        "name": "Sabrina Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=BlondeGolden&facialHairType=BeardMagestic&facialHairColor=Black&clotheType=ShirtScoopNeck&clotheColor=Black&eyeType=Wink&eyebrowType=UpDown&mouthType=Disbelief&skinColor=Pale"
-      },
-      {
-        "name": "Chris Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=WinterHat1&accessoriesType=Wayfarers&hatColor=Blue03&hairColor=PastelPink&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=ShirtScoopNeck&clotheColor=Black&eyeType=EyeRoll&eyebrowType=UpDownNatural&mouthType=Default&skinColor=Yellow"
-      },
-      {
-        "name": "Jaime Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription02&hairColor=SilverGray&facialHairType=BeardMagestic&facialHairColor=Brown&clotheType=ShirtCrewNeck&clotheColor=Black&eyeType=WinkWacky&eyebrowType=Default&mouthType=Smile&skinColor=Tanned"
-      },
-      {
-        "name": "Joanna Yeeet",
-        "email": "hello@lovincyrus.com",
-        "title": "Software Engineer",
-        "website": "https://www.linkedin.com/in/cyrusgoh/",
-        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairDreads&accessoriesType=Wayfarers&hairColor=Platinum&facialHairType=BeardMagestic&facialHairColor=Blonde&clotheType=BlazerShirt&clotheColor=Blue01&eyeType=Close&eyebrowType=RaisedExcitedNatural&mouthType=ScreamOpen&skinColor=Tanned"
-      }
-    ]
-  },
-  {
     "company": "Waze",
     "user": [
       {
@@ -170,6 +116,30 @@
         "title": "Enterprise Sales Development Rep - Healthcare",
         "website": "https://www.linkedin.com/in/erwincuison/",
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtScoopNeck&eyeType=Hearts&eyebrowType=DefaultNatural&facialHairColor=Brown&facialHairType=MoustacheFancy&graphicType=Skull&hairColor=Black&hatColor=PastelBlue&mouthType=Serious&skinColor=Yellow&topType=WinterHat4"
+      }
+    ]
+  },
+  {
+    "company": "Poyry",
+    "user": [
+      {
+        "name": "Matt Heling",
+        "email": "matt.heling@gmail.com",
+        "title": "Head of Energy Consulting, Asia-Pacific",
+        "website": "https://www.linkedin.com/in/mattheling",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=PastelBlue&clotheType=BlazerShirt&eyeType=Close&eyebrowType=Angry&facialHairColor=Brown&facialHairType=BeardLight&graphicType=Skull&hairColor=SilverGray&hatColor=Gray01&mouthType=Disbelief&skinColor=Tanned&topType=ShortHairShortRound"
+      }
+    ]
+  },
+  {
+    "company": "Accenture",
+    "user": [
+      {
+        "name": "Tue Doan",
+        "email": "tkdoan@ucdavis.edu",
+        "title": "Consultant",
+        "website": "https://www.linkedin.com/tuedoan/",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&eyeType=Happy&eyebrowType=Default&facialHairType=Blank&hairColor=Black&skinColor=Light&topType=ShortHairShortWaved"
       }
     ]
   }
