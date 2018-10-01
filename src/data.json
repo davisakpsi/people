@@ -148,5 +148,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Kurt&avatarStyle=Circle&clotheColor=Blue03&clotheType=Hoodie&eyeType=Squint&eyebrowType=Angry&facialHairColor=BrownDark&facialHairType=Blank&graphicType=Selena&hairColor=BrownDark&mouthType=ScreamOpen&skinColor=Brown&topType=LongHairFrida"
       }
     ]
+  },
+  {
+    "company": "Bitly",
+    "user": [
+      {
+        "name": "Edison Giang",
+        "email": "edison.giang@gmail.com",
+        "title": "Visual Designer",
+        "website": "http://www.edisongiang.com/",
+        "avatar": "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=Heather&clotheType=ShirtVNeck&eyeType=Cry&eyebrowType=FlatNatural&facialHairColor=BrownDark&facialHairType=MoustacheMagnum&graphicType=Resist&hairColor=Red&mouthType=Disbelief&skinColor=Light&topType=ShortHairShortFlat"
+      }
+    ]
   }
 ]
