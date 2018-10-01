@@ -142,5 +142,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&eyeType=Happy&eyebrowType=Default&facialHairType=Blank&hairColor=Black&skinColor=Light&topType=ShortHairShortWaved"
       }
     ]
+  },
+  {
+    "company": "Facebook",
+    "user": [
+      {
+        "name": "Ling Yee Wong",
+        "email": "lingyeewong93@gmail.com",
+        "title": "Technical Recruiter",
+        "website": "https://www.linkedin.com/in/lingyeewong/",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=Light"
+      }
+    ]
   }
 ]
