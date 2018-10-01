@@ -157,7 +157,19 @@
         "email": "edison.giang@gmail.com",
         "title": "Visual Designer",
         "website": "http://www.edisongiang.com/",
-        "avatar": "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=Heather&clotheType=ShirtVNeck&eyeType=Cry&eyebrowType=FlatNatural&facialHairColor=BrownDark&facialHairType=MoustacheMagnum&graphicType=Resist&hairColor=Red&mouthType=Disbelief&skinColor=Light&topType=ShortHairShortFlat"
+        "avatar": "https://avataaars.io/?accessoriesType=Prescription01&avatarStyle=Circle&clotheColor=Heather&clotheType=ShirtVNeck&eyeType=Cry&eyebrowType=FlatNatural&facialHairColor=BrownDark&facialHairType=BeardMagestic&graphicType=Resist&hairColor=Red&mouthType=Disbelief&skinColor=Light&topType=ShortHairShortFlat"
+      }
+    ]
+  },
+  {
+    "company": "Sitecore",
+    "user": [
+      {
+        "name": "Erwin Cuison",
+        "email": "erwin_cuison@yahoo.com",
+        "title": "Enterprise Sales Development Rep - Healthcare",
+        "website": "https://www.linkedin.com/in/erwincuison/",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtScoopNeck&eyeType=Hearts&eyebrowType=DefaultNatural&facialHairColor=Brown&facialHairType=MoustacheFancy&graphicType=Skull&hairColor=Black&hatColor=PastelBlue&mouthType=Serious&skinColor=Yellow&topType=WinterHat4"
       }
     ]
   }
