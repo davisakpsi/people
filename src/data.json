@@ -154,5 +154,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=Light"
       }
     ]
+  },
+  {
+    "company": "Fanatics",
+    "user": [
+      {
+        "name": "Michael Wong",
+        "email": "mwwong17@gmail.com",
+        "title": "Marketing Specialist",
+        "website": "https://www.linkedin.com/in/mwwong17",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=Pale"
+      }
+    ]
   }
 ]
