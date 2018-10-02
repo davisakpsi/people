@@ -166,5 +166,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortWaved&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=Pale"
       }
     ]
+  },
+  {
+    "company": "Liftoff",
+    "user": [
+      {
+        "name": "Tammy Shih",
+        "email": "twnshih@gmail.com",
+        "title": "Advertising Creative Producer",
+        "website": "https://tammyshih.com/",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Close&eyebrowType=Default&mouthType=Default&skinColor=Light"
+      }
+    ]
   }
 ]
