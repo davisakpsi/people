@@ -1,9 +1,11 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import _ from 'lodash';
-import { Container, Flex, Text, Link as URL } from '@hackclub/design-system';
+import { Container, Flex } from '@hackclub/design-system';
 import { Link } from '@reach/router';
 import Tilt from 'react-tilt';
+
+import Footer from './Footer';
 
 import users from '../data.json';
 import meta from '../meta.json';
@@ -85,22 +87,7 @@ export default class Company extends React.Component {
             </Link>
           ))}
         </div>
-        <Container maxWidth={100} align="center" style={{ marginBottom: '0' }}>
-          <Text f={1} my={5} color="slate" align="center">
-            Designed and developed in Davis, California <br />& Kuala Lumpur,
-            Malaysia
-          </Text>
-          <Text f={2} my={-3} align="center">
-            <URL
-              href="https://airtable.com/shrOjbaauwJU0t4QU"
-              target="_blank"
-              color="black"
-              bold
-            >
-              Feedback
-            </URL>
-          </Text>
-        </Container>
+        <Footer />
       </React.Fragment>
     );
   }
