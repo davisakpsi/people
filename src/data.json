@@ -44,6 +44,13 @@
         "title": "User Success Manager",
         "website": "https://www.linkedin.com/in/jjmmartinez",
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Black&clotheType=ShirtVNeck&eyeType=Default&eyebrowType=UpDownNatural&facialHairType=Blank&graphicType=Pizza&hairColor=Black&mouthType=Default&skinColor=Brown&topType=ShortHairShortWaved"
+      },
+      {
+        "name": "Kathy Hsu",
+        "email": "kathylhsu@gmail.com",
+        "title": "Federal Sales Director",
+        "website": "https://www.linkedin.com/in/katherinehsu",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Heather&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Twinkle&skinColor=Pale"
       }
     ]
   },
@@ -176,6 +183,18 @@
         "title": "Advertising Creative Producer",
         "website": "https://tammyshih.com/",
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Close&eyebrowType=Default&mouthType=Default&skinColor=Light"
+      }
+    ]
+  },
+  {
+    "company": "Guaranteed Rate",
+    "user": [
+      {
+        "name": "Katie Payne",
+        "email": "katie.payne@rate.com",
+        "title": "Advertising Creative Producer",
+        "website": "https://www.rate.com/katiepayne",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Surprised&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Light"
       }
     ]
   }
