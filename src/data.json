@@ -197,5 +197,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Surprised&eyebrowType=RaisedExcitedNatural&mouthType=Smile&skinColor=Light"
       }
     ]
+  },
+  {
+    "company": "Better",
+    "user": [
+      {
+        "name": "Joann Ho",
+        "email": "joannh.ho@gmail.com",
+        "title": "Associate Credit Analyst",
+        "website": "https://www.linkedin.com/in/joannhho",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Gray02&eyeType=Happy&eyebrowType=Default&mouthType=Tongue&skinColor=Light"
+      }
+    ]
   }
 ]
