@@ -209,5 +209,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Gray02&eyeType=Happy&eyebrowType=Default&mouthType=Tongue&skinColor=Light"
       }
     ]
+  },
+  {
+    "company": "PayPal",
+    "user": [
+      {
+        "name": "Calvin Chan",
+        "email": "calvin@calvinchan.net",
+        "title": "Sr. Product Manager",
+        "website": "https://www.linkedin.com/in/calvintychan",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Blank&facialHairType=Blank&clotheType=ShirtScoopNeck&clotheColor=PastelBlue&eyeType=Wink&eyebrowType=UpDown&mouthType=Twinkle&skinColor=Light"
+      }
+    ]
   }
 ]
