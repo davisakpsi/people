@@ -228,5 +228,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&eyeType=Squint&eyebrowType=Default&mouthType=Smile&skinColor=Light"
       }
     ]
+  },
+  {
+    "company": "Visa",
+    "user": [
+      {
+        "name": "Steven Loi",
+        "email": "steven.loi@gmail.com",
+        "title": "Director, Product Management",
+        "website": "https://www.linkedin.com/in/stevenloi",
+        "avatar": "https://avataaars.io/?accessoriesType=Prescription02&avatarStyle=Circle&topType=ShortHairShortFlat"
+      }
+    ]
   }
 ]
