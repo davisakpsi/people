@@ -240,5 +240,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Prescription02&avatarStyle=Circle&topType=ShortHairShortFlat"
       }
     ]
+  },
+  {
+    "company": "Adobe",
+    "user": [
+      {
+        "name": "Jessica Dam",
+        "email": "jldam08@gmail.com",
+        "title": "Senior Account Manager",
+        "website": "https://www.linkedin.com/in/jessicadam",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&clotheColor=Pink&clotheType=CollarSweater&eyeType=Happy&hairColor=Black&mouthType=Smile&skinColor=Pale&topType=LongHairCurvy"
+      }
+    ]
   }
 ]
