@@ -283,5 +283,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=Black&clotheType=Hoodie&eyeType=Happy&eyebrowType=RaisedExcited&facialHairType=BeardLight&hairColor=BrownDark&mouthType=ScreamOpen&skinColor=Brown&topType=ShortHairShortWaved"
       }
     ]
+  },
+  {
+    "company": "UserTesting",
+    "user": [
+      {
+        "name": "Michael Clifford",
+        "email": "mclifford992@gmail.com",
+        "title": "Senior UX Researcher",
+        "website": "https://www.linkedin.com/in/michaelsclifford",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Blue03&clotheType=Hoodie&eyebrowType=Default&hairColor=BrownDark&skinColor=Light&topType=ShortHairShortWaved"
+      }
+    ]
   }
 ]
