@@ -80,8 +80,15 @@
         "name": "Lauren Chu",
         "email": "laurenchu1024@gmail.com",
         "title": "Talent Program Specialist",
-        "website": "https://www.linkedin.com/in/laurensschu/",
+        "website": "https://www.linkedin.com/in/laurensschu",
         "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Gray02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+      },
+      {
+        "name": "Daisha Paringit",
+        "email": "dlparingit@gmail.com",
+        "title": "Recruiting Coordinator",
+        "website": "https://www.linkedin.com/in/daishaparingit",
+        "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&eyeType=Surprised&hairColor=BrownDark&mouthType=Twinkle&skinColor=Light"
       }
     ]
   },
@@ -250,6 +257,30 @@
         "title": "Senior Account Manager",
         "website": "https://www.linkedin.com/in/jessicadam",
         "avatar": "https://avataaars.io/?avatarStyle=Circle&clotheColor=Pink&clotheType=CollarSweater&eyeType=Happy&eyebrowType=Default&hairColor=Black&mouthType=Smile&skinColor=Pale&topType=LongHairNotTooLong"
+      }
+    ]
+  },
+  {
+    "company": "VMware",
+    "user": [
+      {
+        "name": "Sanaea Kakalia",
+        "email": "sanaea.kakalia@gmail.com",
+        "title": "Product UX Designer",
+        "website": "https://www.linkedin.com/in/sanaeakakalia",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Overall&clotheColor=Gray01&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Pale"
+      }
+    ]
+  },
+  {
+    "company": "Atlassian",
+    "user": [
+      {
+        "name": "Rohit Karthikeyan",
+        "email": "rokart97@gmail.com",
+        "title": "IT Systems Analyst",
+        "website": "https://www.linkedin.com/in/rohitkarthik",
+        "avatar": "https://avataaars.io/?accessoriesType=Round&avatarStyle=Circle&clotheColor=Black&clotheType=Hoodie&eyeType=Happy&eyebrowType=RaisedExcited&facialHairType=BeardLight&hairColor=BrownDark&mouthType=ScreamOpen&skinColor=Brown&topType=ShortHairShortWaved"
       }
     ]
   }
