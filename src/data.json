@@ -295,5 +295,17 @@
         "avatar": "https://avataaars.io/?accessoriesType=Blank&avatarStyle=Circle&clotheColor=Blue03&clotheType=Hoodie&eyebrowType=Default&hairColor=BrownDark&skinColor=Light&topType=ShortHairShortWaved"
       }
     ]
+  },
+  {
+    "company": "Grab",
+    "user": [
+      {
+        "name": "Brian Chan",
+        "email": "b.chan88@gmail.com",
+        "title": "Lead Software Engineer",
+        "website": "https://www.linkedin.com/in/briancnchan",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&clotheColor=PastelBlue&clotheType=Hoodie&eyeType=Happy&mouthType=Smile&skinColor=Light&topType=ShortHairShortFlat"
+      }
+    ]
   }
 ]
