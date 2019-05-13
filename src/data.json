@@ -307,5 +307,17 @@
         "avatar": "https://avataaars.io/?avatarStyle=Circle&clotheColor=PastelBlue&clotheType=Hoodie&eyeType=Happy&mouthType=Smile&skinColor=Light&topType=ShortHairShortFlat"
       }
     ]
+  },
+  {
+    "company": "Scoop Technologies",
+    "user": [
+      {
+        "name": "Kelly Ko",
+        "email": "kdko@ucdavis.edu",
+        "title": "Field Marketing Asssociate",
+        "website": "https://www.linkedin.com/in/kellydko",
+        "avatar": "https://avataaars.io/?avatarStyle=Circle&clotheColor=PastelBlue&clotheType=ShirtCrewNeck&eyeType=Hearts&eyebrowType=Default&mouthType=Smile&topType=LongHairStraight"
+      }
+    ]
   }
 ]
